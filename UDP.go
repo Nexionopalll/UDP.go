@@ -11,7 +11,7 @@ import (
 
 func main() {
 	 // Check for expiration date
-	 expirationDate := time.Date(2024, time.October, 1, 12, 0, 0, 0, time.UTC)
+	 expirationDate := time.Date(2025, time.October, 1, 12, 0, 0, 0, time.UTC)
 	 if time.Now().After(expirationDate) {
 	   fmt.Println("\nThis script has expired and cannot be run\n")
 	   fmt.Println("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬")
